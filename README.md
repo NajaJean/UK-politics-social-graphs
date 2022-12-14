@@ -1,3 +1,7 @@
 # UK-politics-social-graphs
 
-This github includes
+_This paper sets forth to investigate the UK Parliament Election 2019 within the context of network science and text analysis. The Wikipedia API was used to generate the network of all members of the parliament (MPs) and the politicians they link to on their wiki-page. Each node was paired with their corresponding speeches in the UK Political Speech Archive.
+A visualization and analysis of the network was conducted to gain insights on the collected network. Natural language processing was also done with various focus: individual politicians, parties, certain topics of interest and with a temporal scope.
+These analyses made us able to conclude that the network reflects the political landscape of the United Kingdom. In the network, there clearly are some "celebrity" politicians that many politicians link to, and they draw lines to previous elections. In the speeches, Conservatives focus more on education, while Labour are centered around the welfare state. The speeches are generally neutral, but there are clear correlations between the party ideologies and their sentiment in the speeches around key topics. Finally, we proved that the speeches clearly reflect world events, where we see an interest change for the parties over time._
+
+This GitHub includes two .pkl files that hold the two networks that are created. Additionally an explainer notebook that holds all code developed throughout the project. Finally, it has the .pdf file of the created report.
